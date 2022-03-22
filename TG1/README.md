@@ -19,7 +19,7 @@
    <tr>
     <td align="center"><a href="https://www.linkedin.com/in/gabrielsoaresgoncalves/"><img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/GabrielSoares.jfif" width="200px;" alt=""/><br/><b>Gabriel Soares</b></a>
       <br/>
-      Scrum Master/Developer
+      Back-end Developer / Scrum Master
      </td>
    </tr>
   </table>
