@@ -4,9 +4,9 @@
  <h1 align="center"> Portfólio API's Banco de Dados</h1>
  
   <p align="center">
-   <a href="#"> 1º Semestre</a> •
-    <a href="#"> 2º Semestre</a></a> •
-    <a href="#"> 3º Semestre</a></a> •
+   <a href="#-api-1º-semestre"> 1º Semestre</a> •
+    <a href="#-api-2º-semestre"> 2º Semestre</a></a> •
+    <a href="#-api-3º-semestre"> 3º Semestre</a></a> •
    <a href="#-api-4º-semestre"> 4º Semestre</a> •
    <a href="#"> 5º Semestre</a></a> •
    <a href="#"> 6º Semestre</a></a>
@@ -25,15 +25,44 @@
   </table>
 
  ---
+ 
+ <h2 align="center"> API 1º Semestre</h2>
+  
+  <h2 style="font-family:roboto;"> Resumo do Projeto :clipboard:</h2>
+  
+  <p align="justify" style="font-family:roboto;"></p>
+  <p align="justify" style="font-family:roboto;"></p>
+  <p align="justify" style="font-family:roboto;"></p>
+  <p align="justify" style="font-family:roboto;"></p>
+  
+  
+  <h2 style="font-family:roboto;"> Tecnologias Adotadas :computer:</h2>
+   
+  <ul>
+  <li><a href="https://www.java.com/pt_BR/">Java</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Linguagem de programação utilizada para o desenvolvimento Back-End do sistema, apresenta como principais características: Portabilidade, Robustez, Segurança, Orientação a Objetos, Dinâmica e Alto Desempenho. Foi um requisito técnico solicitado pelo cliente.</p></li>
+  </ul></li>
+
+  </ul>
+  
+  <h2 style="font-family:roboto;"> Contribuições Individuais :dart:</h2>
+  
+  <h3> Atribuições como Desenvolvedor Back-end</h3>
+  
+  
+  <h2 style="font-family:roboto;"> Aprendizados Efetivos :book:</h2>   
+  <ul>
+  <li>Metodologia Scrum:
+  <ul>
+    <li></li>
+    <li></li>
+    <li>Organização e acompanhamento constante do desenvolvimento das tarefas pela equipe.</li>   
+    </ul></li>
+    
+---
   
   <h2 align="center"> API 4º Semestre</h2>
-  
-   <p align="center">
-   <a href="#-resumo-do-projeto-clipboard"> Resumo do Projeto</a> •
-   <a href="#-tecnologias-adotadas-computer">Tecnologias Adotadas</a> •
-   <a href="#-contribuições-individuais-dart">Contribuições Individuais</a> •
-   <a href="#-aprendizados-efetivos-book">Aprendizados Efetivos</a>
-  </p>
   
   <h2 style="font-family:roboto;"> Resumo do Projeto :clipboard:</h2>
   
