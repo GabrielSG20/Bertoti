@@ -30,11 +30,7 @@
   
   <h2 style="font-family:roboto;"> Resumo do Projeto :clipboard:</h2>
   
-  <p align="justify" style="font-family:roboto;"></p>
-  <p align="justify" style="font-family:roboto;"></p>
-  <p align="justify" style="font-family:roboto;"></p>
-  <p align="justify" style="font-family:roboto;"></p>
-  
+  <p align="justify" style="font-family:roboto;"> Aplicação Mobile voltada para facilitar o uso de smartphones para usuários da terceira idade. Após o aplicativo ser instalado pelo usuário em seu smartphone, ao clicar em seu ícone será aberta a tela inicial contendo um microfone como botão e um ícone de visualização de lista. Ao clicar no microfone, será gerado a tela de reconhecimento de voz da Google que irá captar o comando falado pelo usuário, acionando uma das funcionalidades. O ícone de visualização de lista, quando clicado, tem a função de mostrar as funcionalidades disponíveis para o usuário por meio de uma nova tela no aplicativo.</p>
   
   <h2 style="font-family:roboto;"> Tecnologias Adotadas :computer:</h2>
    
@@ -42,6 +38,14 @@
   <li><a href="https://www.java.com/pt_BR/">Java</a>:
   <ul>
     <li><p align="justify" style="font-family:roboto;"> Linguagem de programação utilizada para o desenvolvimento Back-End do sistema, apresenta como principais características: Portabilidade, Robustez, Segurança, Orientação a Objetos, Dinâmica e Alto Desempenho. Foi um requisito técnico solicitado pelo cliente.</p></li>
+  </ul></li>
+   <li><a href="https://developer.android.com/studio">Android Studio</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Ambiente de desenvolvimento integrado para elaboração de aplicações Android nativas. Tendo o Java como linguagem back-end e XML para front-end.</p></li>
+  </ul></li>
+  <li><a href="https://trello.com/https://trello.com">Trello</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Foi utilizado como ferramenta do método Scrum para distribuição das atividades do grupo e priorização das demandas. Possibilitando realizar o planejamento das sprints, sendo capaz de registrar o progresso da equipe e do projeto, facilitando o desenvolvimento e acompanhamento da realização de tarefas. </p></li>
   </ul></li>
 
   </ul>
