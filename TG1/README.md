@@ -30,7 +30,18 @@
   
   <h2 style="font-family:roboto;"> Resumo do Projeto :clipboard:</h2>
   
-  <p align="justify" style="font-family:roboto;"> Aplicação Mobile voltada para facilitar o uso de smartphones para usuários da terceira idade. Após o aplicativo ser instalado pelo usuário em seu smartphone, ao clicar em seu ícone será aberta a tela inicial contendo um microfone como botão e um ícone de visualização de lista. Ao clicar no microfone, será gerado a tela de reconhecimento de voz da Google que irá captar o comando falado pelo usuário, acionando uma das funcionalidades. O ícone de visualização de lista, quando clicado, tem a função de mostrar as funcionalidades disponíveis para o usuário por meio de uma nova tela no aplicativo.</p>
+  <p align="justify" style="font-family:roboto;"> Aplicação Mobile voltada para facilitar o uso de smartphones para usuários da terceira idade. Após o aplicativo ser instalado pelo usuário em seu smartphone, ao clicar em seu ícone será aberta a tela inicial contendo um microfone como botão e um ícone de visualização de lista. Ao clicar no microfone, será gerado a tela de reconhecimento de voz da Google que irá captar o comando falado pelo usuário, acionando uma das funcionalidades. O ícone de visualização de lista, quando clicado, tem a função de mostrar as funcionalidades disponíveis para o usuário por meio de uma nova tela no aplicativo. Para mais informações sobre o projeto, acesse: <a href="https://github.com/Gil-cos/Projeto_Integrador_1-Sem2020">Assistente Virtual</a>.</p>
+  <p align="justify" style="font-family:roboto;"> As funcionalidades de comando de voz desenvolvidas foram: 
+  <ul>
+    <li>Abrir câmera para tirar fotos.</li>
+    <li>Realizar chamadas para o número de emergência.</li>
+    <li>Configurar conectividade com redes Wi-Fi.</li>
+    <li>Adicionar alarmes.</li>
+    <li>Abrir o navegador para pesquisas na WEB.</li>
+    <li>Adicionar novos contatos.</li>
+    <li>Efetuar ligações.</li>
+  </ul>
+ </p>
   
   <h2 style="font-family:roboto;"> Tecnologias Adotadas :computer:</h2>
    
@@ -42,6 +53,102 @@
    <li><a href="https://developer.android.com/studio">Android Studio</a>:
   <ul>
     <li><p align="justify" style="font-family:roboto;"> Ambiente de desenvolvimento integrado para elaboração de aplicações Android nativas. Tendo o Java como linguagem back-end e XML para front-end.</p></li>
+  </ul></li>
+  <li><a href="https://trello.com/https://trello.com">Trello</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Foi utilizado como ferramenta do método Scrum para distribuição das atividades do grupo e priorização das demandas. Possibilitando realizar o planejamento das sprints, sendo capaz de registrar o progresso da equipe e do projeto, facilitando o desenvolvimento e acompanhamento da realização de tarefas. </p></li>
+  </ul></li>
+
+  </ul>
+  
+  <h2 style="font-family:roboto;"> Contribuições Individuais :dart:</h2>
+  
+  <h3> Atribuições como Desenvolvedor Back-end</h3>
+  
+  
+  <h2 style="font-family:roboto;"> Aprendizados Efetivos :book:</h2>   
+  <ul>
+  <li>Metodologia Scrum:
+  <ul>
+    <li></li>
+    <li></li>
+    <li>Organização e acompanhamento constante do desenvolvimento das tarefas pela equipe.</li>   
+    </ul></li>
+    
+---
+  
+  <h2 align="center"> API 2º Semestre</h2>
+  
+  <h2 style="font-family:roboto;"> Resumo do Projeto :clipboard:</h2>
+  
+  <p align="justify" style="font-family:roboto;"> A empresa TecSUS requisitou o desenvolvimento de um software que tem por objetivo facilitar a digitação por parte da sua equipe para as contas de água e luz. O software oferece uma maior facilidade para seus usuários, automatizando processos e diminuindo o tempo de cadastro, além da prevenção de erros por parte dos digitadores e gerando um relatório sobre o consumo e custos de água e luz de cada cliente. Para mais informações sobre o projeto, acesse: <a href="https://github.com/GabrielSG20/Projeto_Integrador_2-Sem2020">Cadastro de Contas</a>.</p>
+  
+  <h2 style="font-family:roboto;"> Tecnologias Adotadas :computer:</h2>
+   
+  <ul>
+  <li><a href="https://www.java.com/pt_BR/">Java</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Linguagem de programação utilizada para o desenvolvimento Back-End do sistema, apresenta como principais características: Portabilidade, Robustez, Segurança, Orientação a Objetos, Dinâmica e Alto Desempenho. Foi um requisito técnico solicitado pelo cliente.</p></li>
+  </ul></li>
+  <li><a href="https://openjfx.io/">JavaFX</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Plataforma de software multimídia utilizada para criação de interfaces gráficas, utilizando a linguagem Java. </p></li>
+  </ul></li>
+   <li><a href="https://www.mysql.com/">MySQL</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Sistema de gerenciamento de banco de dados utilizado para criação e manipulação de bases de dados, onde eram armazenadas as informações do software.</p></li>
+  </ul></li>
+  <li><a href="https://www.gitpod.io/">Gitpod</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Ambiente de desenvolvimento em nuvem utilizado para elaboração de aplicações Web ou Desktop em diversas linguagens de programação.</p></li>
+  </ul></li>
+  <li><a href="https://trello.com/https://trello.com">Trello</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Foi utilizado como ferramenta do método Scrum para distribuição das atividades do grupo e priorização das demandas. Possibilitando realizar o planejamento das sprints, sendo capaz de registrar o progresso da equipe e do projeto, facilitando o desenvolvimento e acompanhamento da realização de tarefas. </p></li>
+  </ul></li>
+
+  </ul>
+  
+  <h2 style="font-family:roboto;"> Contribuições Individuais :dart:</h2>
+  
+  <h3> Atribuições como Desenvolvedor Back-end</h3>
+  
+  
+  <h2 style="font-family:roboto;"> Aprendizados Efetivos :book:</h2>   
+  <ul>
+  <li>Metodologia Scrum:
+  <ul>
+    <li></li>
+    <li></li>
+    <li>Organização e acompanhamento constante do desenvolvimento das tarefas pela equipe.</li>   
+    </ul></li>
+    
+---
+    
+  <h2 align="center"> API 3º Semestre</h2>
+  
+  <h2 style="font-family:roboto;"> Resumo do Projeto :clipboard:</h2>
+  
+  <p align="justify" style="font-family:roboto;"> Para otimizar a criação e melhorar o controle na documentação de aeronaves, a empresa parceira solicitou a equipe airPLAN o desenvolvimento de uma aplicação que automatize e aperfeiçoe a forma de armazenar e gerar documentos de maneira intuitiva e eficaz. O objetivo é desenvolver uma aplicação que integre três APIs independentes. Além disso, as ferramentas necessitam manter, customizar e versionar partes de arquivos em PDF, utilizando regras de negócio específicas para gerar documentos finais que dispõe as partes selecionadas.Para mais informações sobre o projeto, acesse: <a href="https://github.com/GabrielSG20/Projeto_Integrador_3BD-1Sem2021">AirPlan</a>.</p>
+  
+  <h2 style="font-family:roboto;"> Tecnologias Adotadas :computer:</h2>
+   
+  <ul>
+  <li><a href="https://www.java.com/pt_BR/">Java</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Linguagem de programação utilizada para o desenvolvimento Back-End do sistema, apresenta como principais características: Portabilidade, Robustez, Segurança, Orientação a Objetos, Dinâmica e Alto Desempenho. Foi um requisito técnico solicitado pelo cliente.</p></li>
+  </ul></li>
+  <li><a href="https://spring.io/">Spring Boot</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> É um framework open source para Java, aplicado para facilitar a configuração e gerenciamento das dependências do projeto. Logo melhorando a produtividade e agilidade no processo de desenvolvimnto da aplicação.</p></li>
+  </ul></li>
+  <li><a href="https://www.javascript.com/">JavaScript</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Foi utilizado no desenvolvimento Front-End para comunicação com a API Rest elaborada no Back-End. </p></li>
+  </ul></li>
+   <li><a href="https://www.mysql.com/">MySQL</a>:
+  <ul>
+    <li><p align="justify" style="font-family:roboto;"> Sistema de gerenciamento de banco de dados utilizado para criação e manipulação de bases de dados, onde eram armazenadas as informações do software.</p></li>
   </ul></li>
   <li><a href="https://trello.com/https://trello.com">Trello</a>:
   <ul>
