@@ -64,16 +64,65 @@
   <h2 style="font-family:roboto;"> Contribuições Individuais :dart:</h2>
   
   <h3> Atribuições como Desenvolvedor Back-end</h3>
+  <p align="justify" style="font-family:roboto;"> Como Desenvolvedor Back-End, as atribuições foram relacionadas com a elaboração da lógica do sistema planejado, tendo em vista as regras de negócio proporcionadas pela problemática. Criando os métodos que serão chamados pelo Front-End, obtendo uma solução completa com todas as funcionalidades necessárias. Como demonstrado no tópico de Tecnologias Adotadas, foi utilizado Java para o desenvolvimento Back-End, portanto os próximos parágrafos irão descrever a minha experiência em contribuir com a lógica do projeto.</p>
+  
+  <p align="justify" style="font-family:roboto;"> O primeiro passo foi a criação e configuração do ambiente que iríamos utilizar, fizemos criando um novo projeto na IDE Android Studio. Após isso, realizei a implementação do método catchSpeech(), que utiliza um objeto da classe Intent para capturar os comandos de voz falados pelo usuário. Esse objeto intent tem como função solicitar uma ação de outros componentes do Android, nesse caso está sendo requeriada a ação de reconhecimento de voz (ACTION_RECOGNIZE_SPEECH).</p>
+   <details>
+    <summary>Método catchSpeech</summary>
+    <br>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/catchSpeech.png" width="800px;" alt=""/>
+  </details>
+  <p align="justify" style="font-family:roboto;"> Para finalizar o catchSpeech(), é chamado dentro de um try/catch (para capturar possíveis erros do software ou da fala do usuário) outro método nomeado startActivityForResult(). Responsável por verificar a resposta do intent e atribuí-la a uma variável (speech), chamando o método processMachineLearning().</p>
+  <details>
+    <summary>Método onActivityResult()</summary>
+    <br>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/onActivityResult.png" width="800px;" alt=""/>
+  </details>
+  
+  <p align="justify" style="font-family:roboto;"> O processMachineLearning() chamará os métodos que ativam as funcionalidades requeridas, de acordo com o comando falado.</p>
+    <details>
+    <summary>Método processMachineLearning()</summary>
+    <br>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/processMachineLearning.png" width="800px;" alt=""/>
+  </details>
+  
+  <p align="justify" style="font-family:roboto;"> Fui responsável pela criação de métodos relacionados com as funcionalidades de realizar chamadas para um número de emergência, realizar uma pesquisa na Web e indicar um filme ao usuário.</p>
+  <p align="justify" style="font-family:roboto;"> A realização da chamada de emergência e pesquisa Web foram elaborados utilizando um objeto da Classe Intent, chamando ação necessária para cada um (ACTION_CALL e ACTION_WEB_SEARCH).</p>
+    <details>
+    <summary>Métodos callSOS() e searchGoogle()</summary>
+    <br>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/metodosFuncionalidades.png" width="800px;" alt=""/>
+  </details>
+  
+  <p align="justify" style="font-family:roboto;"> Já a recomendação do filme foi realizada por meio da consulta em uma API Https. Foi criada uma classe de serviço que estabele uma conexão com a URL a ser consumida e captura sua resposta em formato de json, utilizando para isso uma ação "GET". Retornando um objeto da classe Filme, que vai conter um atributo com o nome do filme.</p>
+    <details>
+    <summary>Serviço que consome a URL Https</summary>
+    <br>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/servicoGetFilme.png" width="800px;" alt=""/>
+  </details>
+  
+  <p align="justify" style="font-family:roboto;"> Esse serviço é chamado por pelo método recommendMovie() na classe principal, tendo seu resultado atribuído a um objeto da classe Filme. Utiliazamos esse resposta como parâmetro para um intent com ação de pesquisa na Web, assim levará o usuário para mais informações sobre o filme que a URL recomenda.</p>
+    <details>
+    <summary>Método recommendMovie()</summary>
+    <br>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/recommendMovie.png" width="800px;" alt=""/>
+  </details>
   
   
   <h2 style="font-family:roboto;"> Aprendizados Efetivos :book:</h2>   
   <ul>
   <li>Metodologia Scrum:
   <ul>
-    <li></li>
-    <li></li>
     <li>Organização e acompanhamento constante do desenvolvimento das tarefas pela equipe.</li>   
     </ul></li>
+  <li>Desenvolvimento Android Nativo:
+  <ul>
+    <li>Criação e configuração do ambiente no Android Studio;</li> 
+    <li>Consumir API Https;</li>
+    <li>Método para reconhecimento de comandos por voz;</li> 
+    <li>Ações nativas android chamadas por comando de voz.</li>
+    </ul></li>
+    </ul>
     
 ---
   
@@ -113,15 +162,20 @@
   
   <h3> Atribuições como Desenvolvedor Back-end</h3>
   
-  
   <h2 style="font-family:roboto;"> Aprendizados Efetivos :book:</h2>   
   <ul>
   <li>Metodologia Scrum:
   <ul>
-    <li></li>
-    <li></li>
     <li>Organização e acompanhamento constante do desenvolvimento das tarefas pela equipe.</li>   
     </ul></li>
+  <li>Desenvolvimento Android Nativo:
+  <ul>
+    <li>Criação e configuração do ambiente no Android Studio;</li> 
+    <li>Consumir API Https;</li>
+    <li>Método para reconhecimento de comandos por voz;</li> 
+    <li>Ações nativas android chamadas por comando de voz.</li>
+    </ul></li>
+    </ul>
     
 ---
     
@@ -166,10 +220,16 @@
   <ul>
   <li>Metodologia Scrum:
   <ul>
-    <li></li>
-    <li></li>
     <li>Organização e acompanhamento constante do desenvolvimento das tarefas pela equipe.</li>   
     </ul></li>
+  <li>Desenvolvimento Android Nativo:
+  <ul>
+    <li>Criação e configuração do ambiente no Android Studio;</li> 
+    <li>Consumir API Https;</li>
+    <li>Método para reconhecimento de comandos por voz;</li> 
+    <li>Ações nativas android chamadas por comando de voz.</li>
+    </ul></li>
+    </ul>
     
 ---
   
@@ -341,7 +401,7 @@
   <li>Framework Spring Boot:
   <ul>
     <li>Configuração do ambiente;</li> 
-    <li>Arquitetura Modelo-Visão-Controle (MVC)</li>
+    <li>Arquitetura Modelo-Visão-Controle (MVC);</li>
     <li>Desenvolvimento dos Endpoints para chamada do Front-End;</li> 
     <li>Mapeamento das tabelas e relações da Base de Dados com Hibernate;</li>
     <li>Conexão com Banco de Dados Oracle hospedado em nuvem no Oracle Cloud, por meio da Wallet.</li>
