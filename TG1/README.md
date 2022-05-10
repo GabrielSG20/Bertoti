@@ -70,20 +70,20 @@
    <details>
     <summary>Método catchSpeech</summary>
     <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/catchSpeech.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/catchSpeech.png" width="800px;" alt=""/>
   </details>
   <p align="justify" style="font-family:roboto;"> Para finalizar o catchSpeech(), é chamado dentro de um try/catch (para capturar possíveis erros do software ou da fala do usuário) outro método nomeado startActivityForResult(). Responsável por verificar a resposta do intent e atribuí-la a uma variável (speech), chamando o método processMachineLearning().</p>
   <details>
     <summary>Método onActivityResult()</summary>
     <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/onActivityResult.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/onActivityResult.png" width="800px;" alt=""/>
   </details>
   
   <p align="justify" style="font-family:roboto;"> O processMachineLearning() chamará os métodos que ativam as funcionalidades requeridas, de acordo com o comando falado.</p>
     <details>
     <summary>Método processMachineLearning()</summary>
     <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/processMachineLearning.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/processMachineLearning.png" width="800px;" alt=""/>
   </details>
   
   <p align="justify" style="font-family:roboto;"> Fui responsável pela criação de métodos relacionados com as funcionalidades de realizar chamadas para um número de emergência, realizar uma pesquisa na Web e indicar um filme ao usuário.</p>
@@ -91,21 +91,21 @@
     <details>
     <summary>Métodos callSOS() e searchGoogle()</summary>
     <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/metodosFuncionalidades.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/metodosFuncionalidades.png" width="800px;" alt=""/>
   </details>
   
   <p align="justify" style="font-family:roboto;"> Já a recomendação do filme foi realizada por meio da consulta em uma API Https. Foi criada uma classe de serviço que estabele uma conexão com a URL a ser consumida e captura sua resposta em formato de json, utilizando para isso uma ação "GET". Retornando um objeto da classe Filme, que vai conter um atributo com o nome do filme.</p>
     <details>
     <summary>Serviço que consome a URL Https</summary>
     <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/servicoGetFilme.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/servicoGetFilme.png" width="800px;" alt=""/>
   </details>
   
   <p align="justify" style="font-family:roboto;"> Esse serviço é chamado por pelo método recommendMovie() na classe principal, tendo seu resultado atribuído a um objeto da classe Filme. Utiliazamos esse resposta como parâmetro para um intent com ação de pesquisa na Web, assim levará o usuário para mais informações sobre o filme que a URL recomenda.</p>
     <details>
     <summary>Método recommendMovie()</summary>
     <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/recommendMovie.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/recommendMovie.png" width="800px;" alt=""/>
   </details>
   
   
@@ -302,14 +302,14 @@
   <details>
   <summary>POM.xml do Projeto</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/Pom.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/Pom.png" width="800px;" alt=""/>
   </details>
   
   <p align="justify" style="font-family:roboto;"> Com isso finalizado e versionado no GitHub, focamos em decidir a Arquitetura e padrões de projetos que implementaríamos. Logo, optamos pela arquitetura Modelo-Visão-Controle (MVC), em que separamos o sistema em componentes interligados que são essenciais para uma melhora na conexão entre as camadas de dados, lógica de negócio e iteração com o usuário.</p>
   <details>
   <summary>Lógica Arquitetural MVC</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/DiagramaArq.png" width="500px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/DiagramaArq.png" width="500px;" alt=""/>
   </details>
   
   <ul>
@@ -317,12 +317,12 @@
     <details>
   <summary>Entidade Model</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/Model-1.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/Model-1.png" width="800px;" alt=""/>
   </details>
   <details>
   <summary>Relações ManyToMany e ManyToOne Mapeadas</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/Model-2.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/Model-2.png" width="800px;" alt=""/>
   </details>
   </li>
     
@@ -330,7 +330,7 @@
   <details>
   <summary>Repository</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/Repository.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/Repository.png" width="800px;" alt=""/>
   </details>
   </li>
     
@@ -338,7 +338,7 @@
   <details>
   <summary>Service</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/Service.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/Service.png" width="800px;" alt=""/>
   </details>
   </li>
     
@@ -346,7 +346,7 @@
   <details>
   <summary>Controller</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/Controller.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/Controller.png" width="800px;" alt=""/>
   </details>
   </li>
   </ul>
@@ -355,14 +355,14 @@
   <details>
   <summary>Padrão de Projeto Proxy</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/PadraoProxy.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/PadraoProxy.png" width="800px;" alt=""/>
   </details>
   
    <p align="justify" style="font-family:roboto;"> Após explicada a estrura empregada no projeto, foi necessário realizar uma configuração de Cors, ao passo que verificam a real origem, métodos HTTP e cabeçalhos de uma determinada solicitação enviada para o Back-End. Sendo fundamental para conexão com o Front-End, porque permite que a rota utilizada no Angular consiga fazer requisições e receber suas respostas.</p>
   <details>
   <summary>Configuração dos Cors</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/Config-Cors.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/Config-Cors.png" width="800px;" alt=""/>
   </details>
   
   <p align="justify" style="font-family:roboto;"> A seguir foram configuradas as Properties, na qual foi aplicada a conexão com a Base de Dados Oracle que está em
@@ -370,14 +370,14 @@
   <details>
   <summary>Properties</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/Properties-VPC.png" width="800px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/Properties-VPC.png" width="800px;" alt=""/>
   </details>
   
   <p align="justify" style="font-family:roboto;"> Por fim, colaborei com o deploy do Front-End no Heroku, por meio do método manual usando uma branch do GitHub do projeto. Com isso o sistema ficou 100% hospedado em nuvem e disponível pelo seguinte link: <a href="http://vempracasa.herokuapp.com/">#VEMPRACASA</a></p>
   <details>
   <summary>Heroku</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/Heroku.png" width="1000px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/Heroku.png" width="1000px;" alt=""/>
   </details>
   
   <h3> Atribuições como Scrum Master</h3>
@@ -386,7 +386,7 @@
   <details>
   <summary>Demonstração da Organização de uma Sprint no Jira</summary>
   <br>
-   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Portfolio/blob/main/images/Jira.png" width="1000px;" alt=""/>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/Jira.png" width="1000px;" alt=""/>
   </details>
   
    
