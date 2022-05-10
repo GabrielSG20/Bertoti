@@ -162,18 +162,25 @@
   
   <h3> Atribuições como Desenvolvedor Back-end</h3>
   
+  <h3> Atribuições como Scrum Master</h3>
+  <p align="justify" style="font-family:roboto;"> As atribuições como Scrum Master da equipe são pertinentes a realizar um bom planejamento e organização das ações do grupo no decorrer das Sprints. No início do projeto foi realizada uma reunião para definir nosso principal meio de comunicação e a ferramenta para monitoramento de tarefas, assim decidimos utilizar, respectivamente, o Discord e o Trello. Como Master da equipe, fiquei responsável por acompanhar e analizar o progresso do grupo nesses softwares, de modo a observar se todos os integrantes estavam participando das Weekly Meatings e se apresentavam alguma dificuldade com a evolução das tarefas, logo atuando da melhor maneira de acordo com a situação.</p>
+  <p align="justify" style="font-family:roboto;"> Após a apresentação do problema por parte do cliente, nos reunimos para a elaboração de um Backlog conciso com as necessidades do cliente. Obtendo como resultado final desse processo as User Stories que compõe o Product Backlog e a descrição da experiência do usuário com o produto, além de promover um ótimo entendimento das regras de negócio e os primeiros questionamentos para o cliente. Com esse alinhamento inicial finalizado, as User Stories foram divididas entre as 4 Sprints do projeto, destarte tive a função de quebrar essas histórias em tarefas menores e mais objetivas, para um melhor desenvolvimento do que foi planejado, e também delegar essas tasks entre os integrantes da equipe. O que pode ser observado na imagem exemplo abaixo.</p>
+  <details>
+  <summary>Demonstração da Organização de uma Sprint no Trello</summary>
+  <br>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/TrelloAPI2.png" width="1000px;" alt=""/>
+  </details>
+  
   <h2 style="font-family:roboto;"> Aprendizados Efetivos :book:</h2>   
   <ul>
   <li>Metodologia Scrum:
   <ul>
+    <li>Quebra das User Stories da Sprint em Tasks objetivas;</li>
     <li>Organização e acompanhamento constante do desenvolvimento das tarefas pela equipe.</li>   
     </ul></li>
-  <li>Desenvolvimento Android Nativo:
+  <li>Padrão de projetos DAO:
   <ul>
-    <li>Criação e configuração do ambiente no Android Studio;</li> 
-    <li>Consumir API Https;</li>
-    <li>Método para reconhecimento de comandos por voz;</li> 
-    <li>Ações nativas android chamadas por comando de voz.</li>
+    <li>Conexão com Banco de Dados Mysql.</li>
     </ul></li>
     </ul>
     
@@ -215,19 +222,30 @@
   
   <h3> Atribuições como Desenvolvedor Back-end</h3>
   
+  <h3> Atribuições como Scrum Master</h3>
+  <p align="justify" style="font-family:roboto;"> As atribuições como Scrum Master da equipe são pertinentes a realizar um bom planejamento e organização das ações do grupo no decorrer das Sprints. No início do projeto foi realizada uma reunião para definir nosso principal meio de comunicação e a ferramenta para monitoramento de tarefas, assim decidimos utilizar, respectivamente, o Discord e o Trello. Como Master da equipe, fiquei responsável por acompanhar e analizar o progresso do grupo nesses softwares, de modo a observar se todos os integrantes estavam participando das Weekly Meatings e se apresentavam alguma dificuldade com a evolução das tarefas, logo atuando da melhor maneira de acordo com a situação.</p>
+  <p align="justify" style="font-family:roboto;"> Após a apresentação do problema por parte do cliente, nos reunimos para a elaboração de um Backlog conciso com as necessidades do cliente. Obtendo como resultado final desse processo as User Stories que compõe o Product Backlog e a descrição da experiência do usuário com o produto, além de promover um ótimo entendimento das regras de negócio e os primeiros questionamentos para o cliente. Com esse alinhamento inicial finalizado, as User Stories foram divididas entre as 4 Sprints do projeto, destarte tive a função de quebrar essas histórias em tarefas menores e mais objetivas, para um melhor desenvolvimento do que foi planejado, e também delegar essas tasks entre os integrantes da equipe. O que pode ser observado na imagem exemplo abaixo.</p>
+  <details>
+  <summary>Demonstração da Organização de uma Sprint no Trello</summary>
+  <br>
+   <img style="border-radius: 50%;" src="https://github.com/GabrielSG20/Bertoti/blob/main/TG1/images/TrelloAPI3.png" width="1000px;" alt=""/>
+  </details>
   
-  <h2 style="font-family:roboto;"> Aprendizados Efetivos :book:</h2>   
+  
+ <h2 style="font-family:roboto;"> Aprendizados Efetivos :book:</h2>   
   <ul>
   <li>Metodologia Scrum:
   <ul>
+    <li>Quebra das User Stories da Sprint em Tasks objetivas;</li>
     <li>Organização e acompanhamento constante do desenvolvimento das tarefas pela equipe.</li>   
     </ul></li>
-  <li>Desenvolvimento Android Nativo:
+  <li>Framework Spring Boot:
   <ul>
-    <li>Criação e configuração do ambiente no Android Studio;</li> 
-    <li>Consumir API Https;</li>
-    <li>Método para reconhecimento de comandos por voz;</li> 
-    <li>Ações nativas android chamadas por comando de voz.</li>
+    <li>Configuração do ambiente;</li> 
+    <li>Arquitetura Modelo-Visão-Controle (MVC);</li>
+    <li>Desenvolvimento dos Endpoints para chamada do Front-End;</li> 
+    <li>Mapeamento das tabelas e relações da Base de Dados com Hibernate;</li>
+    <li>Conexão com Banco de Dados Mysql.</li>
     </ul></li>
     </ul>
     
